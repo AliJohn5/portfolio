@@ -39,7 +39,7 @@ class MyIcon extends ConsumerWidget {
       final codePoint = int.tryParse(iconCodePoint);
 
       if (codePoint != null) {
-        final iconData = IconData(
+        final IconData iconData = IconData(
           codePoint,
           fontFamily: iconFontFamily,
         );
