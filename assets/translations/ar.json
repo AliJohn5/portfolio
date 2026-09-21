@@ -1,0 +1,744 @@
+{
+    "aboutDescription": "أنا مطور برمجيات متخصص في Flutter و Django، وشغوف ببناء تطبيقات جوال موثوقة وتركز على المستخدم، بالإضافة إلى أنظمة خافية (Backend) قابلة للتوسع.\nمع أكثر من 4 سنوات من الخبرة في تطوير البرمجيات، عملت في مجالات تطوير الجوال، و REST APIs، و Firebase، والأنظمة الخافية، لتحويل الأفكار إلى حلول عملية وجاهزة للإنتاج.\nتشمل اهتماماتي أيضًا C++، والأنظمة المدمجة (Embedded Systems)، والروبوتات، والأمن السيبراني، والذكاء الاصطناعي، مما يتيح لي استكشاف نقطة الالتقاء بين البرمجيات والأنظمة الذكية.\nيدفعني الشغف إلى حل المشكلات التنافسية، وتعلم تقنيات جديدة، وبناء منتجات ذات قيمة حقيقية.",
+    "name": "علي يوسف",
+    "description": "مطور Flutter & Django",
+    "subDescription": "Mobile • Backend • Software Systems",
+    "mobileAppDeveloper": "مطور تطبيقات جوال",
+    "systemsEngineering": "هندسة الأنظمة",
+    "contacts": [
+        {
+            "tooltip": "Github",
+            "url": "https://github.com/AliJohn5",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "X",
+            "url": "https://x.com/AliYous43539713",
+            "icon": {
+                "codePoint": "0xf0ea",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "LinkedIn",
+            "url": "https://www.linkedin.com/in/ali-yousef-b5341b284/",
+            "icon": {
+                "codePoint": "0xeffb",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "aliy65154@gmail.com",
+            "url": "mailto:aliy65154@gmail.com",
+            "icon": {
+                "codePoint": "0xeaad",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "+963 932 722 234",
+            "url": "tel:+963932722234",
+            "icon": {
+                "codePoint": "0xecbb",
+                "fontFamily": "FontAwesome"
+            }
+        }
+    ],
+    "resumes": [
+        {
+            "role": "mobileAppDeveloper",
+            "url": "https://drive.google.com/file/d/1oeHwvgi-yWs7pWSbw7l5UjXnAOa36DML/view?usp=sharing"
+        },
+        {
+            "role": "systemsEngineering",
+            "url": "https://drive.google.com/file/d/1vL1L1xABYZ7b-KBRXh6ARCBYz5kEKvIq/view?usp=sharing"
+        }
+    ],
+    "experiences": [
+        {
+            "role": "مطور جوال متكامل (Full-Stack Mobile Developer)",
+            "company": "Qio",
+            "description": "تطوير منصة Qio، وهي منصة جوال متكاملة باستخدام Flutter و Django، مع التركيز على البنية التحتية القابلة للتوسع والميزات الجاهزة للإنتاج. بناء REST APIs، وتوثيق JWT، وإدارة المستخدمين، والعروض، والمراسلات، والإشعارات، ووظائف المحفظة/الدفع. دمج خدمات Firebase بما في ذلك FCM و Google Mobile Ads، مع تطبيق الروابط العميقة (Deep Linking)، و Android App Links، وتدفقات التطبيقات الآمنة. إدارة دمج قواعد البيانات، والنشر، واستكشاف الأخطاء وإصلاحها، وتحسين الأداء عبر البنية التحتية للجوال والأنظمة الخافية.",
+            "startYear": 2026,
+            "startMonth": 6,
+            "isPresent": true,
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ],
+            "links": []
+        },
+        {
+            "role": "مطور ويب متكامل (Full-Stack Web Developer)",
+            "company": "Latakia University",
+            "description": "تطوير موقع ويب تفاعلي لقسم الميكاترونكس باستخدام Flutter Web، وإنشاء منصة حديثة وسهلة الاستخدام للطلاب وأعضاء الهيئة التدريسية وأنظمة القسم. دمج Firebase للخدمات الخافية، وإدارة البيانات، والمحتوى الديناميكي. تصميم مكونات Flutter قابلة لإعادة الاستخدام وتخطيطات متجاوبة لضمان تجربة متناسقة عبر أجهزة أجهزة الكمبيوتر والمحمول. التعاون مع القسم لترجمة المتطلبات إلى تطبيق ويب قابل للصيانة وجاهز للإنتاج.",
+            "startYear": 2025,
+            "startMonth": 3,
+            "endYear": 2025,
+            "endMonth": 5,
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ],
+            "links": [
+                {
+                    "url": "https://mechatronics-c0f27.web.app/",
+                    "display": "Mechatronics Department"
+                }
+            ]
+        },
+        {
+            "role": "مطور جوال متكامل (Full-Stack Mobile Developer)",
+            "company": "Qio",
+            "description": "تطوير منصة Qio، وهي منصة جوال متكاملة باستخدام Flutter و Django، مع التركيز على البنية التحتية القابلة للتوسع والميزات الجاهزة للإنتاج. بناء REST APIs، وتوثيق JWT، وإدارة المستخدمين، والعروض، والمراسلات، والإشعارات، ووظائف المحفظة/الدفع. دمج خدمات Firebase بما في ذلك FCM و Google Mobile Ads، مع تطبيق الروابط العميقة (Deep Linking)، و Android App Links، وتدفقات التطبيقات الآمنة. إدارة دمج قواعد البيانات، والنشر، واستكشاف الأخطاء وإصلاحها، وتحسين الأداء عبر البنية التحتية للجوال والأنظمة الخافية.",
+            "startYear": 2024,
+            "startMonth": 7,
+            "endYear": 2024,
+            "endMonth": 12,
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ],
+            "links": []
+        },
+        {
+            "role": "مطور جوال متكامل (Full-Stack Mobile Developer)",
+            "company": "Robotics Club",
+            "description": "تطوير وصيانة تطبيقات جوال متكاملة باستخدام Flutter و Django، وبناء APIs قابلة للتوسع وواجهات مستخدم متجاوبة عبر المنصات. تصميم ودمج قواعد بيانات PostgreSQL و SQLite، وتطبيق إدارة بيانات آمنة وخدمات خافية فعالة باستخدام Python. تغليف التطبيقات باستخدام Docker ودعم النشر السحابي والبنية التحتية باستخدام AWS. التعاون مع الفريق لتقديم حلول موثوقة وجاهزة للإنتاج بدءًا من البنية التحتية الخافية وحتى تطوير تطبيقات الجوال.",
+            "startYear": 2024,
+            "startMonth": 1,
+            "endYear": 2024,
+            "endMonth": 6,
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ],
+            "links": []
+        },
+        {
+            "role": "مطور أذرع روبوتية مزدوجة (Dual Arms Developer)",
+            "company": "Robotics Club",
+            "description": "تطوير ودمج برمجيات لنظام روبوتي ثنائي الأذرع، والعمل عبر التحكم بالحرّكة، والبرمجيات الوسيطة للروبوتات (Robotics Middleware)، والرؤية الحاسوبية، وواجهات المستخدم. بناء مكونات قائمة على ROS باستخدام C++ و Python و OpenCV للتحكم الروبوتي، والإدراك، والاتصال بالنظام. تطوير تطبيقات داعمة متعددة المنصات باستخدام Flutter و Dart و Firebase و Qt، والتعاون مع الفريق لدمج واختبار وتحسين المنصة الروبوتية بالكامل.",
+            "startYear": 2022,
+            "startMonth": 9,
+            "endYear": 2023,
+            "endMonth": 10,
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Firebase",
+                    "icon": {
+                        "assetName": "assets/icons/other/firebase.svg"
+                    }
+                },
+                {
+                    "name": "ROS",
+                    "icon": {
+                        "assetName": "assets/icons/other/ros.svg"
+                    }
+                },
+                {
+                    "name": "Qt",
+                    "icon": {
+                        "assetName": "assets/icons/other/qt.svg"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/other/python.svg"
+                    }
+                },
+                {
+                    "name": "C++",
+                    "icon": {
+                        "assetName": "assets/icons/other/c++.svg"
+                    }
+                },
+                {
+                    "name": "OpenCV",
+                    "icon": {
+                        "assetName": "assets/icons/other/OpenCV.svg"
+                    }
+                }
+            ],
+            "links": []
+        },
+        {
+            "role": "مهندس أنظمة (Systems Engineer)",
+            "company": "Robotics Club",
+            "description": "العمل كمهندس أنظمة، وتطوير البرمجيات ودمج الأنظمة الروبوتية عبر طبقات العتاد والتطبيقات. تصميم تطبيقات متعددة المنصات باستخدام Flutter و Dart و Firebase و Qt، أثناء بناء ودمج أنظمة روبوتية قائمة على ROS باستخدام Python. التعاون مع فرق متعددة التخصصات لحل التحديات التقنية، وتحسين موثوقية النظام، ودعم مشاريع الروبوتات من مرحلة النموذج الأول وحتى الدمج والاختبار.",
+            "startYear": 2021,
+            "startMonth": 5,
+            "endYear": 2022,
+            "endMonth": 6,
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Firebase",
+                    "icon": {
+                        "assetName": "assets/icons/other/firebase.svg"
+                    }
+                },
+                {
+                    "name": "ROS",
+                    "icon": {
+                        "assetName": "assets/icons/other/ros.svg"
+                    }
+                },
+                {
+                    "name": "Qt",
+                    "icon": {
+                        "assetName": "assets/icons/other/qt.svg"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/other/python.svg"
+                    }
+                }
+            ],
+            "links": []
+        }
+    ],
+    "present": "الحاضر",
+    "projects": [
+        {
+            "name": "Robotic Club App",
+            "description": "منصة جوال متكاملة تم بناؤها لنادي الروبوتات لإدارة الأعضاء والأنشطة والمشاريع والتواصل الداخلي. تم تطوير تطبيق Flutter متعدد المنصات مع خلفية Django REST API باستخدام PostgreSQL/SQLite لإدارة البيانات. تطبيق التوثيق، وملفات المستخدمين، والمراسلات، والإشعارات، وإدارة المحتوى، مع دعم Docker و AWS للنشر والبنية التحتية.",
+            "url": "https://github.com/AliJohn5/robotic-club-app",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/robotic-club.jpeg",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ],
+            "links": []
+        },
+        {
+            "name": "Qio",
+            "description": "منصة سوق عبر الجوال متكاملة تربط المستخدمين بالعروض والخدمات من خلال تطبيق Flutter حديث ونظام خفي قائم على Django REST API. تم تنفيذ توثيق JWT، وملفات تعريف المستخدمين، والعروض، والمراسلات، والإشعارات، ووظائف المحفظة/الدفع مع إدارة البيانات المستندة إلى PostgreSQL. دمج Firebase Cloud Messaging و Google Mobile Ads، جنبًا إلى جنب مع الروابط العميقة والاتصالات الآمنة عبر API. تم نشر وصيانة البنية التحتية للأنظمة الخافية مع تحسين التطبيق للاستخدام المباشر.",
+            "url": "https://alijohn.my.canva.site/",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/qio.png",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Mechatronics Website",
+            "description": "منصة ويب متجاوبة تم تطويرها لقسم الميكاترونكس لعرض البرامج الأكاديمية والكلية والأنشطة والمشاريع ومعلومات القسم. تم إنشاؤها باستخدام Flutter Web باستخدام مكونات قابلة لإعادة الاستخدام وتخطيطات متجاوبة لضمان تجربة متناسقة عبر جميع الأجهزة. دمج Firebase للخدمات الخافية وإدارة المحتوى الديناميكي، وتقديم موقع ويب حديث وسهل الصيانة والاستخدام.",
+            "url": "https://mechatronics-c0f27.web.app/",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/mecha-web-app.jpeg",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Mobile Application",
+            "description": "منصة تطبيق جوال متكاملة تربط المستخدمين بالعروض والخدمات من خلال تطبيق Flutter حديث ونظام خفي قائم على Django REST API. تم تنفيذ توثيق JWT، وملفات تعريف المستخدمين، والعروض، والمراسلات، والإشعارات، ووظائف المحفظة/الدفع مع إدارة البيانات المستندة إلى PostgreSQL. دمج Firebase Cloud Messaging و Google Mobile Ads، جنبًا إلى جنب مع الروابط العميقة والاتصالات الآمنة عبر API. تم نشر وصيانة البنية التحتية للأنظمة الخافية مع تحسين التطبيق للاستخدام المباشر.",
+            "url": "https://alijohn.my.canva.site/",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/app.jpeg",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Snake Mobile Game",
+            "description": "لعبة الأفعى الكلاسيكية المبتكرة باستخدام Flutter، تتميز بأسلوب لعب سلس، وعناصر تحكم متجوبة، وتتبع للنتائج، وصعوبة متدرجة. تم بناؤها ببنية نمطية ونظيفة مع التركيز على الأداء، وواجهة مستخدم بديهية، وتجربة تفاعلية جذابة. صُممت كمشروع خفيف الوزن عبر المنصات يعرض تطوير الألعاب باستخدام Flutter وإدارة الحالة التفاعلية.",
+            "url": "https://alijohn.my.canva.site/",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/game.jpg",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                }
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "code": "en",
+            "name": "English",
+            "nativeName": "English",
+            "icon": {
+                "assetName": "assets/icons/flags/united-states-of-america.svg"
+            }
+        },
+        {
+            "code": "ar",
+            "name": "Arabic",
+            "nativeName": "العربية",
+            "icon": {
+                "assetName": "assets/icons/flags/arabic.svg"
+            }
+        }
+    ],
+    "bottomBanner": {
+        "message": "معرض أعمال مفتوح المصدر -",
+        "displayLink": "انسخ المشروع (Fork)",
+        "linkUrl": "https://github.com/AladdineDev/portfolio#readme"
+    },
+    "portfolio": "معرض الأعمال",
+    "homeSectionTitle": "الرئيسية",
+    "aboutSectionTitle": "نبذة عني",
+    "aboutSectionTitleAlt": "عنّي",
+    "experienceSectionTitle": "الخبرات",
+    "projectsSectionTitle": "المشاريع",
+    "resume": "السيرة الذاتية",
+    "downloadResume": "تحميل السيرة الذاتية",
+    "openUrlError": "تعذر فتح الرابط",
+    "unknownLanguageError": "اللغة غير معروفة"
+}

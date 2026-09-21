@@ -16,6 +16,7 @@ class PersonalInfoDesktop extends ConsumerWidget {
     final resumes = ref.watch(personalInfoRepositoryProvider).getResumes();
     final contacts = ref.watch(personalInfoRepositoryProvider).getContacts();
 
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -33,8 +34,9 @@ class PersonalInfoDesktop extends ConsumerWidget {
           tr(LocaleKeys.subDescription),
           style: Theme.of(context).textTheme.bodyLarge,
         ),
+        gapH8,
+        _buildProfileImage(ref),
         _buildResumeButton(ref, resumes: resumes.toList()),
-        const Spacer(),
         gapH8,
         ContactBar(contacts: contacts.toList()),
       ],
@@ -51,6 +53,17 @@ class PersonalInfoDesktop extends ConsumerWidget {
           child: ResumeButton(resumes: resumes),
         ),
       ],
+    );
+  }
+
+  Widget _buildProfileImage(WidgetRef ref) {
+     return SizedBox(
+      height: 400,
+      width: 400,
+      child: Image.asset(
+        "assets/images/me.jpg",
+        fit: BoxFit.cover,
+      ),
     );
   }
 }

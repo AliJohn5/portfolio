@@ -6,8 +6,7 @@ part 'resume.g.dart';
 @freezed
 class Resume with _$Resume {
   const factory Resume({
-    String? languageCode,
-    String? language,
+    String? role,
     String? url,
   }) = _Resume;
 

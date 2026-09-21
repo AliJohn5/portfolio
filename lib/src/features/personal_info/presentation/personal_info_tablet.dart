@@ -33,6 +33,8 @@ class PersonalInfoTablet extends ConsumerWidget {
           tr(LocaleKeys.subDescription),
           style: Theme.of(context).textTheme.bodyLarge,
         ),
+        gapH8,
+        _buildProfileImage(ref),
         _buildResumeButton(ref, resumes: resumes.toList()),
         gapH8,
         ContactBar(contacts: contacts.toList()),
@@ -45,6 +47,17 @@ class PersonalInfoTablet extends ConsumerWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 36),
       child: ResumeButton(resumes: resumes),
+    );
+  }
+
+  Widget _buildProfileImage(WidgetRef ref) {
+    return SizedBox(
+      height: 400,
+      width: 400,
+      child: Image.asset(
+        "assets/images/me.jpg",
+        fit: BoxFit.cover,
+      ),
     );
   }
 }

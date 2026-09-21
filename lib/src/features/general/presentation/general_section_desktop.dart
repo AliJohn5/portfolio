@@ -17,6 +17,7 @@ class GeneralDesktop extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final scrollController = ref.watch(scrollControllerProvider);
+    
 
     return Column(
       children: [
@@ -28,75 +29,36 @@ class GeneralDesktop extends ConsumerWidget {
               Container(
                 color: Theme.of(context).colorScheme.primary,
               ),
-              Row(
-                children: [
-                  Expanded(
-                    child: Listener(
-                      onPointerSignal: (PointerSignalEvent event) {
-                        if (event is PointerScrollEvent) {
+              Directionality(
+                textDirection: TextDirection.ltr,
+                child: Row(
+                  //verticalDirection: VerticalDirection.,
+                  children: [
+                    Expanded(
+                      child: Listener(
+                        onPointerSignal: (PointerSignalEvent event) {
+                          if (event is PointerScrollEvent) {
+                            scrollController.position.moveTo(
+                              scrollController.position.pixels +
+                                  event.scrollDelta.dy,
+                            );
+                          }
+                        },
+                        onPointerPanZoomUpdate: (event) {
                           scrollController.position.moveTo(
-                            scrollController.position.pixels +
-                                event.scrollDelta.dy,
+                            scrollController.position.pixels + event.panDelta.dy,
                           );
-                        }
-                      },
-                      onPointerPanZoomUpdate: (event) {
-                        scrollController.position.moveTo(
-                          scrollController.position.pixels + event.panDelta.dy,
-                        );
-                      },
-                      child: MySelectionArea(
-                        child: Container(
-                          padding: const EdgeInsets.fromLTRB(100, 80, 100, 100),
-                          color: Theme.of(context).colorScheme.primary,
-                          child: const Align(
-                            alignment: Alignment.topRight,
-                            child: AnimatedFadeSlide(
-                              offset: Offset(-128, 0),
-                              child: PersonalInfoSection(),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Expanded(
-                    child: MySelectionArea(
-                      child: Container(
-                        color: Theme.of(context).colorScheme.primary,
-                        child: SingleChildScrollView(
-                          controller: scrollController,
-                          padding: const EdgeInsetsDirectional.only(
-                            top: 80,
-                            end: 140,
-                            bottom: 88,
-                          ),
-                          child: Align(
-                            alignment: Alignment.topLeft,
-                            child: SizedBox(
-                              width: 520,
-                              child: AnimatedFadeSlide(
-                                offset: const Offset(128, 0),
-                                child: Column(
-                                  children: [
-                                    Padding(
-                                      padding: const EdgeInsets.symmetric(
-                                        horizontal: 12,
-                                      ),
-                                      child: AboutSection(
-                                        key: ref.watch(aboutSectionKeyProvider),
-                                      ),
-                                    ),
-                                    const SizedBox(height: 120),
-                                    ExperienceSection(
-                                      key: ref
-                                          .watch(experienceSectionKeyProvider),
-                                    ),
-                                    const SizedBox(height: 120),
-                                    ProjectSection(
-                                      key: ref.watch(projectSectionKeyProvider),
-                                    ),
-                                  ],
+                        },
+                        child: MySelectionArea(
+                          child: SingleChildScrollView(
+                            child: Container(
+                              padding: const EdgeInsets.fromLTRB(100, 80, 100, 100),
+                              color: Theme.of(context).colorScheme.primary,
+                              child: const Align(
+                                alignment: Alignment.topRight,
+                                child: AnimatedFadeSlide(
+                                  offset: Offset(-128, 0),
+                                  child: PersonalInfoSection(),
                                 ),
                               ),
                             ),
@@ -104,8 +66,53 @@ class GeneralDesktop extends ConsumerWidget {
                         ),
                       ),
                     ),
-                  ),
-                ],
+                    Expanded(
+                      child: MySelectionArea(
+                        child: Container(
+                          color: Theme.of(context).colorScheme.primary,
+                          child: SingleChildScrollView(
+                            controller: scrollController,
+                            padding: const EdgeInsetsDirectional.only(
+                              top: 80,
+                              end: 140,
+                              bottom: 88,
+                            ),
+                            child: Align(
+                              alignment: Alignment.topLeft,
+                              child: SizedBox(
+                                width: 520,
+                                child: AnimatedFadeSlide(
+                                  offset: const Offset(128, 0),
+                                  child: Column(
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsets.symmetric(
+                                          horizontal: 12,
+                                        ),
+                                        child: AboutSection(
+                                          key: ref.watch(aboutSectionKeyProvider),
+                                        ),
+                                      ),
+                                      const SizedBox(height: 120),
+                                      ExperienceSection(
+                                        key: ref
+                                            .watch(experienceSectionKeyProvider),
+                                      ),
+                                      const SizedBox(height: 120),
+                                      ProjectSection(
+                                        key: ref.watch(projectSectionKeyProvider),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ],
           ),

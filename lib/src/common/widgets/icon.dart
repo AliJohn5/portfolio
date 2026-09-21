@@ -23,22 +23,29 @@ class MyIcon extends ConsumerWidget {
     final iconCodePoint = icon?.codePoint;
     final iconFontFamily = icon?.fontFamily;
     final iconColor = icon?.color;
+
     Color? color;
+
     if (iconColor != null) {
       final colorHex = int.tryParse(iconColor);
+
       if (colorHex != null) {
         color = Color(colorHex);
       }
     }
+
+    // Font icon
     if (iconCodePoint != null && iconFontFamily != null) {
-      final iconCodePointHexa = int.tryParse(iconCodePoint);
-      if (iconCodePointHexa != null) {
+      final codePoint = int.tryParse(iconCodePoint);
+
+      if (codePoint != null) {
         final iconData = IconData(
-          iconCodePointHexa,
+          codePoint,
           fontFamily: iconFontFamily,
         );
+
         return Padding(
-          padding: const EdgeInsets.all(2),
+          padding: padding ?? EdgeInsets.zero,
           child: FittedBox(
             child: Icon(
               iconData,
@@ -48,14 +55,26 @@ class MyIcon extends ConsumerWidget {
           ),
         );
       }
-    } else if (iconAssetName != null) {
-      return SvgPicture.asset(
-        iconAssetName,
-        width: size,
-        colorFilter:
-            color == null ? null : ColorFilter.mode(color, BlendMode.srcIn),
+    }
+
+    // SVG icon
+    if (iconAssetName != null) {
+      return Padding(
+        padding: padding ?? EdgeInsets.zero,
+        child: SvgPicture.asset(
+          iconAssetName,
+          width: size,
+          height: size,
+          colorFilter: color == null
+              ? null
+              : ColorFilter.mode(
+                  color,
+                  BlendMode.srcIn,
+                ),
+        ),
       );
     }
+
     return placeholder;
   }
 }
