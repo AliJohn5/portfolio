@@ -1,0 +1,767 @@
+{
+
+    "aboutDescription": "I'm a software developer specializing in Flutter and Django, passionate about building reliable, user-focused mobile applications and scalable backend systems.\nWith 4+ years of experience in software development, I've worked across mobile development, REST APIs, Firebase, and backend systems, turning ideas into practical and production-ready solutions.\nMy interests also include C++, embedded systems, robotics, cybersecurity, and AI, allowing me to explore the intersection of software and intelligent systems.\nI'm driven by solving challenging problems, learning new technologies, and building meaningful products that create real value.",
+
+    "name": "Ali Yousef",
+
+    "description": "Flutter & Django Developer",
+
+    "subDescription": "Mobile • Backend • Software Systems",
+    "mobileAppDeveloper" : "Mobile App Developer",
+    "systemsEngineering": "Systems Engineering",
+
+    "contacts": [
+        {
+            "tooltip": "Github",
+            "url": "https://github.com/AliJohn5",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "X",
+            "url": "https://x.com/AliYous43539713",
+            "icon": {
+                "codePoint": "0xf0ea",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "LinkedIn",
+            "url": "https://www.linkedin.com/in/ali-yousef-b5341b284/",
+            "icon": {
+                "codePoint": "0xeffb",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "aliy65154@gmail.com",
+            "url": "mailto:aliy65154@gmail.com",
+            "icon": {
+                "codePoint": "0xeaad",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "+963 932 722 234",
+            "url": "tel:+963932722234",
+            "icon": {
+                "codePoint": "0xecbb",
+                "fontFamily": "FontAwesome"
+            }
+        }
+    ],
+    "resumes": [
+        {
+            "role": "mobileAppDeveloper",
+            "url": "https://drive.google.com/file/d/1oeHwvgi-yWs7pWSbw7l5UjXnAOa36DML/view?usp=sharing"
+        },
+        {
+            "role": "systemsEngineering",
+            "url": "https://drive.google.com/file/d/1vL1L1xABYZ7b-KBRXh6ARCBYz5kEKvIq/view?usp=sharing"
+        }
+    ],
+    
+    "experiences": [
+        {
+            "role": "Full-Stack Mobile Developer",
+            "company": "Qio",
+            "description": "Developing Qio, a full-stack mobile platform using Flutter and Django, with a focus on scalable architecture and production-ready features. Building REST APIs, JWT authentication, user management, offers, messaging, notifications, and wallet/payment functionality. Integrating Firebase services including FCM and Google Mobile Ads, while implementing deep linking, Android App Links, and secure application flows. Managing database integration, deployment, debugging, and optimization across the mobile and backend infrastructure.",
+            "startYear": 2026,
+            "startMonth": 6,
+            "isPresent": true,
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ],
+            "links": [
+                
+            ]
+        },
+        {
+            "role": "Full-Stack Web Developer",
+            "company": "Latakia University",
+            "description": "Developed a responsive website for the Mechatronics Department using Flutter Web, creating a modern and accessible platform for students, faculty, and department activities. Integrated Firebase for backend services, data management, and dynamic content. Designed reusable Flutter components and responsive layouts to ensure a consistent experience across desktop and mobile devices. Collaborated with the department to translate requirements into a maintainable and production-ready web application.",
+            "startYear": 2025,
+            "startMonth": 3,
+            "endYear": 2025,
+            "endMonth": 5,
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ],
+            "links": [
+                {
+                    "url": "https://mechatronics-c0f27.web.app/",
+                    "display": "Mechatronics Department"
+                }
+            ]
+        },
+        {
+            "role": "Full-Stack Mobile Developer",
+            "company": "Qio",
+            "description": "Developing Qio, a full-stack mobile platform using Flutter and Django, with a focus on scalable architecture and production-ready features. Building REST APIs, JWT authentication, user management, offers, messaging, notifications, and wallet/payment functionality. Integrating Firebase services including FCM and Google Mobile Ads, while implementing deep linking, Android App Links, and secure application flows. Managing database integration, deployment, debugging, and optimization across the mobile and backend infrastructure.",
+            "startYear": 2024,
+            "startMonth": 7,
+            "endYear": 2024,
+            "endMonth": 12,
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ],
+            "links": [
+                
+            ]
+        },
+        {
+            "role": "Full-Stack Mobile Developer",
+            "company": "Robotics Club",
+            "description": "Developed and maintained full-stack mobile applications using Flutter and Django, building scalable APIs and responsive cross-platform user interfaces. Designed and integrated PostgreSQL and SQLite databases, implementing secure data management and efficient backend services with Python. Containerized applications with Docker and supported cloud deployment and infrastructure using AWS. Collaborated with the team to deliver reliable, production-ready solutions from backend architecture to mobile application development.",
+            "startYear": 2024,
+            "startMonth": 1,
+            "endYear": 2024,
+            "endMonth": 6,
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ],
+            "links": [
+               
+            ]
+        },
+        {
+            "role": "Dual Arms Developer",
+            "company": "Robotics Club",
+            "description": "Developed and integrated software for a dual-arm robotic system, working across motion control, robotics middleware, computer vision, and user interfaces. Built ROS-based components using C++, Python, and OpenCV for robotic control, perception, and system communication. Developed supporting cross-platform applications with Flutter, Dart, Firebase, and Qt, collaborating with the team to integrate, test, and optimize the complete robotic platform.",
+            "startYear": 2022,
+            "startMonth": 9,
+            "endYear": 2023,
+            "endMonth": 10,
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Firebase",
+                    "icon": {
+                        "assetName": "assets/icons/other/firebase.svg"
+                    }
+                },
+                {
+                    "name": "ROS",
+                    "icon": {
+                        "assetName": "assets/icons/other/ros.svg"
+                    }
+                },
+                {
+                    "name": "Qt",
+                    "icon": {
+                        "assetName": "assets/icons/other/qt.svg"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/other/python.svg"
+                    }
+                },
+                {
+                    "name": "C++",
+                    "icon": {
+                        "assetName": "assets/icons/other/c++.svg"
+                    }
+                }
+                ,
+                {
+                    "name": "OpenCV",
+                    "icon": {
+                        "assetName": "assets/icons/other/OpenCV.svg"
+                    }
+                }
+            ],
+            "links": [
+                
+            ]
+        },
+        {
+            "role": "Systems Engineer",
+            "company": "Robotics Club",
+            "description": "Worked as a Systems Engineer, developing software and integrating robotics systems across hardware and application layers. Designed cross-platform applications using Flutter, Dart, Firebase, and Qt, while building and integrating ROS-based robotic systems with Python. Collaborated with multidisciplinary teams to solve technical challenges, improve system reliability, and support robotics projects from prototyping through integration and testing.",
+            "startYear": 2021,
+            "startMonth": 5,
+            "endYear": 2022,
+            "endMonth": 6,
+            "technologies": [
+               
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Firebase",
+                    "icon": {
+                        "assetName": "assets/icons/other/firebase.svg"
+                    }
+                },
+                {
+                    "name": "ROS",
+                    "icon": {
+                        "assetName": "assets/icons/other/ros.svg"
+                    }
+                },
+                {
+                    "name": "Qt",
+                    "icon": {
+                        "assetName": "assets/icons/other/qt.svg"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/other/python.svg"
+                    }
+                }
+            ],
+            "links": [
+                
+            ]
+        }
+    ],
+    "present": "Present",
+    "projects": [
+        {
+            "name": "Robotic Club App",
+            "description": "A full-stack mobile platform built for the Robotics Club to manage members, activities, projects, and internal communication. Developed the cross-platform Flutter application with a Django REST API backend, using PostgreSQL/SQLite for data management. Implemented authentication, user profiles, messaging, notifications, and content management, with Docker and AWS supporting deployment and infrastructure.",
+            "url": "https://github.com/AliJohn5/robotic-club-app",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/robotic-club.jpeg",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                 {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ],
+            "links": [
+                
+            ]
+        },
+        {
+            "name": "Qio",
+            "description": "A full-stack mobile marketplace platform connecting users with offers and services through a modern Flutter application and Django REST API backend. Implemented JWT authentication, user profiles, offers, messaging, notifications, and wallet/payment functionality with PostgreSQL-based data management. Integrated Firebase Cloud Messaging and Google Mobile Ads, along with deep linking and secure API communication. Deployed and maintained the backend infrastructure while optimizing the application for production use.",
+            "url": "https://alijohn.my.canva.site/",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/qio.png",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                  {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ]
+        },
+        
+        {
+            "name": "Mechatronics Website",
+            "description": "A responsive web platform developed for the Mechatronics Department to showcase academic programs, faculty, activities, projects, and department information. Built with Flutter Web using reusable components and responsive layouts for a consistent experience across devices. Integrated Firebase for backend services and dynamic content management, delivering a modern, maintainable, and user-friendly website.",
+            "url": "https://mechatronics-c0f27.web.app/",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/mecha-web-app.jpeg",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                  {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ]
+        },
+
+        {
+            "name": "Mobile Application",
+            "description": "A full-stack mobile App platform connecting users with offers and services through a modern Flutter application and Django REST API backend. Implemented JWT authentication, user profiles, offers, messaging, notifications, and wallet/payment functionality with PostgreSQL-based data management. Integrated Firebase Cloud Messaging and Google Mobile Ads, along with deep linking and secure API communication. Deployed and maintained the backend infrastructure while optimizing the application for production use.",
+            "url": "https://alijohn.my.canva.site/",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/app.jpeg",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                  {
+                    "name": "Django",
+                    "icon": {
+                        "codePoint": "0xeee7",
+                        "fontFamily": "BoxIcons"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "icon": {
+                        "codePoint": "0xe944",
+                        "fontFamily": "OctIcons"
+                    }
+                },
+                {
+                    "name": "Docker",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/docker.svg"
+                    }
+                },
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Snake Mobile Game",
+           "description": "A classic Snake game developed with Flutter, featuring smooth gameplay, responsive controls, score tracking, and progressive difficulty. Built with a clean and modular architecture while focusing on performance, intuitive UI, and an engaging user experience. Designed as a lightweight cross-platform project demonstrating Flutter game development and interactive state management.",
+            "url": "https://alijohn.my.canva.site/",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/game.jpg",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                }
+               
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "code": "en",
+            "name": "English",
+            "nativeName": "English",
+            "icon": {
+                "assetName": "assets/icons/flags/united-states-of-america.svg"
+            }
+        },
+        {
+            "code": "ar",
+            "name": "Arabic",
+            "nativeName": "العربية",
+            "icon": {
+                "assetName": "assets/icons/flags/arabic.svg"
+            }
+        }
+    ],
+    "bottomBanner": {
+        "message": "Open source portfolio -",
+        "displayLink": "Fork it",
+        "linkUrl": "https://github.com/AladdineDev/portfolio#readme"
+    },
+    "portfolio": "Portfolio",
+    "homeSectionTitle": "Home",
+    "aboutSectionTitle": "About",
+    "aboutSectionTitleAlt": "About Me",
+    "experienceSectionTitle": "Experience",
+    "projectsSectionTitle": "Projects",
+    "resume": "Resume",
+    "downloadResume": "Download resume",
+    "openUrlError": "Could not open the url",
+    "unknownLanguageError": "Language unknown"
+}
