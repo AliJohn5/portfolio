@@ -49,5 +49,4 @@ app.*.map.json
 *.g.dart
 *.freezed.dart
 
-
-/lib/firebase_options.dart
+lib/firebase_options.dart
