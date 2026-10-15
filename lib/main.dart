@@ -12,6 +12,7 @@ void main() async {
   EasyLocalization.logger.enableBuildModes = [];
   usePathUrlStrategy();
   final supportedLocales = await AppLocalizations.supportedLocales();
+  
   runApp(
     ProviderScope(
       child: AppStartupWidget(

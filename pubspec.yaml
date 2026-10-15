@@ -53,6 +53,12 @@ flutter:
     - assets/icons/software-development/
     - assets/images/
     - assets/translations/
+    - assets/projects/chaty/
+    - assets/projects/login-design/
+    - assets/projects/mecha-web/
+    - assets/projects/qio/
+    - assets/projects/robotic-club/
+    - assets/projects/snake-game/
 
   fonts:
     - family: BoxIcons
