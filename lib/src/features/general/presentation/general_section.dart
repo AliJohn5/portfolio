@@ -8,8 +8,9 @@ import 'package:portfolio/src/features/general/presentation/widgets/safe_area.da
 import 'package:portfolio/src/common/widgets/responsive.dart';
 
 class GeneralSection extends ConsumerWidget {
-
   const GeneralSection({super.key});
+
+  
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
