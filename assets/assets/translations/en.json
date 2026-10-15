@@ -443,6 +443,55 @@
     ],
     "present": "Present",
     "projects": [
+
+         {
+            "name": "Chaty",
+            "description": "Chaty is a modern, responsive, and feature-rich cross-platform mobile chat application built to deliver a seamless user-to-user communication experience. Designed with a sleek, customizable UI that seamlessly supports both Light and Dark themes, Chaty offers full-featured real-time messaging, media sharing, and instant push notifications.",
+            "url": "https://github.com/AliJohn5/robotic-club-app",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/chaty.jpeg",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                 
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ],
+            "links": [
+                
+            ],
+
+            "images": [
+                "assets/projects/chaty/1.jpg",
+                "assets/projects/chaty/2.jpg",
+                "assets/projects/chaty/3.jpg",
+                "assets/projects/chaty/4.jpg",
+                "assets/projects/chaty/5.jpg",
+                "assets/projects/chaty/6.jpg",
+                "assets/projects/chaty/7.jpg",
+                "assets/projects/chaty/8.jpg"
+            ]
+        },
+
         {
             "name": "Robotic Club App",
             "description": "A full-stack mobile platform built for the Robotics Club to manage members, activities, projects, and internal communication. Developed the cross-platform Flutter application with a Django REST API backend, using PostgreSQL/SQLite for data management. Implemented authentication, user profiles, messaging, notifications, and content management, with Docker and AWS supporting deployment and infrastructure.",
@@ -508,6 +557,16 @@
             ],
             "links": [
                 
+            ],
+
+            "images": [
+                "assets/projects/robotic-club/robotic-club-chat.jpg",
+                "assets/projects/robotic-club/robotic-club-chats.jpg",
+                "assets/projects/robotic-club/robotic-club-dialog.jpg",
+                "assets/projects/robotic-club/robotic-club-home.jpeg",
+                "assets/projects/robotic-club/robotic-club-login.jpg",
+                "assets/projects/robotic-club/robotic-club-perm.jpg",
+                "assets/projects/robotic-club/robotic-club-signup.jpg"
             ]
         },
         {
@@ -572,6 +631,14 @@
                         "fontFamily": "BoxIcons"
                     }
                 }
+            ],
+
+            "images": [
+                "assets/projects/qio/qio-login.jpeg",
+                "assets/projects/qio/qio-create.jpeg",
+                "assets/projects/qio/qio-chat.jpeg",
+                "assets/projects/qio/qio-view.jpeg"
+
             ]
         },
         
@@ -637,6 +704,10 @@
                         "fontFamily": "BoxIcons"
                     }
                 }
+            ],
+            "images": [
+                "assets/projects/mecha-web/home-mobile.jpeg",
+                "assets/projects/mecha-web/home-desktop.jpeg"
             ]
         },
 
@@ -702,6 +773,16 @@
                         "fontFamily": "BoxIcons"
                     }
                 }
+            ],
+
+            "images": [
+                "assets/projects/login-design/loading-dark.jpeg",
+                "assets/projects/login-design/loading.jpeg",
+                "assets/projects/login-design/login-dark.jpeg",
+                "assets/projects/login-design/login-light.jpeg",
+                "assets/projects/login-design/signup-dark.jpeg",
+                "assets/projects/login-design/welcome-dark.jpeg",
+                "assets/projects/login-design/welcome-light.jpeg"
             ]
         },
         {
@@ -728,6 +809,9 @@
                     }
                 }
                
+            ],
+            "images": [
+                "assets/projects/snake-game/game.jpg"
             ]
         }
     ],
@@ -763,5 +847,6 @@
     "resume": "Resume",
     "downloadResume": "Download resume",
     "openUrlError": "Could not open the url",
-    "unknownLanguageError": "Language unknown"
+    "unknownLanguageError": "Language unknown",
+    "aboutProject": "About Project"
 }

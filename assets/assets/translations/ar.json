@@ -426,6 +426,53 @@
     "present": "الحاضر",
     "projects": [
         {
+            "name": "Chaty",
+            "description": "Chaty هو تطبيق محادثة حديث، تفاعلي، ومكتمل الميزات يُعمل على مختلف أنظمة التشغيل، مصمم لتقديم تجربة تواصل سلسة وفعالة بين المستخدمين. يتألق التطبيق بمركز واجهة مستخدم أصلية وجذابة تدعم المظهرين الفاتح والداكن (Light & Dark Themes)، ويقدم مزايا المحادثة الفورية، مشاركة الوسائط، والإشعارات المباشرة.",
+            "url": "https://github.com/AliJohn5/robotic-club-app",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/chaty.jpeg",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                 
+                {
+                    "name": "AWS",
+                    "icon": {
+                        "codePoint": "0xeed1",
+                        "fontFamily": "BoxIcons"
+                    }
+                }
+            ],
+            "links": [
+                
+            ],
+
+            "images": [
+                "assets/projects/chaty/1.jpg",
+                "assets/projects/chaty/2.jpg",
+                "assets/projects/chaty/3.jpg",
+                "assets/projects/chaty/4.jpg",
+                "assets/projects/chaty/5.jpg",
+                "assets/projects/chaty/6.jpg",
+                "assets/projects/chaty/7.jpg",
+                "assets/projects/chaty/8.jpg"
+            ]
+        },
+        {
             "name": "Robotic Club App",
             "description": "منصة جوال متكاملة تم بناؤها لنادي الروبوتات لإدارة الأعضاء والأنشطة والمشاريع والتواصل الداخلي. تم تطوير تطبيق Flutter متعدد المنصات مع خلفية Django REST API باستخدام PostgreSQL/SQLite لإدارة البيانات. تطبيق التوثيق، وملفات المستخدمين، والمراسلات، والإشعارات، وإدارة المحتوى، مع دعم Docker و AWS للنشر والبنية التحتية.",
             "url": "https://github.com/AliJohn5/robotic-club-app",
@@ -488,7 +535,17 @@
                     }
                 }
             ],
-            "links": []
+            "links": [],
+
+            "images": [
+                "assets/projects/robotic-club/robotic-club-chat.jpg",
+                "assets/projects/robotic-club/robotic-club-chats.jpg",
+                "assets/projects/robotic-club/robotic-club-dialog.jpg",
+                "assets/projects/robotic-club/robotic-club-home.jpg",
+                "assets/projects/robotic-club/robotic-club-login.jpg",
+                "assets/projects/robotic-club/robotic-club-perm.jpg",
+                "assets/projects/robotic-club/robotic-club-signup.jpg"
+            ]
         },
         {
             "name": "Qio",
@@ -552,6 +609,13 @@
                         "fontFamily": "BoxIcons"
                     }
                 }
+            ],
+            "images": [
+                "assets/projects/qio/qio-login.jpeg",
+                "assets/projects/qio/qio-create.jpeg",
+                "assets/projects/qio/qio-chat.jpeg",
+                "assets/projects/qio/qio-view.jpeg"
+
             ]
         },
         {
@@ -616,6 +680,10 @@
                         "fontFamily": "BoxIcons"
                     }
                 }
+            ],
+            "images": [
+                "assets/projects/mecha-web/home-mobile.jpeg",
+                "assets/projects/mecha-web/home-desktop.jpeg"
             ]
         },
         {
@@ -680,6 +748,15 @@
                         "fontFamily": "BoxIcons"
                     }
                 }
+            ],
+            "images": [
+                "assets/projects/login-design/loading-dark.jpeg",
+                "assets/projects/login-design/loading.jpeg",
+                "assets/projects/login-design/login-dark.jpeg",
+                "assets/projects/login-design/login-light.jpeg",
+                "assets/projects/login-design/signup-dark.jpeg",
+                "assets/projects/login-design/welcome-dark.jpeg",
+                "assets/projects/login-design/welcome-light.jpeg"
             ]
         },
         {
@@ -705,6 +782,9 @@
                         "assetName": "assets/icons/other/dart.svg"
                     }
                 }
+            ],
+            "images": [
+                "assets/projects/snake-game/game.jpg"
             ]
         }
     ],
@@ -740,5 +820,6 @@
     "resume": "السيرة الذاتية",
     "downloadResume": "تحميل السيرة الذاتية",
     "openUrlError": "تعذر فتح الرابط",
-    "unknownLanguageError": "اللغة غير معروفة"
+    "unknownLanguageError": "اللغة غير معروفة",
+    "aboutProject": "حول المشروع"
 }
