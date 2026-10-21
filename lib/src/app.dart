@@ -5,6 +5,7 @@ import 'package:portfolio/src/features/general/presentation/general_section.dart
 import 'package:portfolio/src/features/general/provider/dark_mode_controller.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:portfolio/src/localization/generated/locale_keys.g.dart';
+import 'package:portfolio/src/visitor_session_tracker.dart';
 import 'package:portfolio/src/visitor_tracker.dart';
 // Import your visitor tracker service here
 // import 'path/to/visitor_tracker.dart';
@@ -22,6 +23,7 @@ class _MyAppState extends ConsumerState<MyApp> {
     super.initState();
     // Log the visitor as soon as the root app widget initializes
     VisitorTracker.logVisit();
+    VisitorSessionTracker.initialize();
   }
 
   @override
